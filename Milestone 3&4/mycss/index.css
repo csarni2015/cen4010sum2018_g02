@@ -1,0 +1,146 @@
+@font-face{
+	font-family: handwriting-draft_free-version;
+	src: url("../myfont/handwriting-draft_free-version.ttf");
+	/*url("https://www.fontsquirrel.com/fonts/arizonia");  IE9 */
+
+	font-family: Arizonia-Regular;
+	src: url("../myfont/Arizonia-Regular.ttf");
+	/*url("https://www.fontsquirrel.com/fonts/arizonia");  IE9 */
+}
+
+p{
+	text-indent: 7.5%;
+	margin-bottom: 0px;
+	/*font-family: Merienda;*/
+	font-size: 100%;
+	text-align: left;
+	font-family: handwriting-draft_free-version;
+}
+
+.quote{
+	font-family: Merienda;
+	font-size: 110%;
+	color: red;
+	font-weight: none;
+}
+.welcome{
+	font-family: Merienda;
+	font-size: 190%;
+	font-weight: 2%;
+	text-align: center;
+}
+.story{
+	 font-family: Merienda;
+	 font-size: 140%;
+}
+.user_story{
+
+	font-family: Merienda;
+	font-size: 100%;
+	text-align: left;
+	text-indent: 15%;
+
+}
+.user_story_title{
+	padding-top: 5%;
+	font-size: 120%;
+	color: red;
+	text-align: center;
+}
+.white-space{
+	line-height: 0.8;;
+}
+
+body .container{
+	background-color: rgba(128, 128, 129, .1);
+	box-shadow: 1px 1px 20px  black;
+	border-radius: 25px;
+	text-align:center;
+	padding: 2%;
+	font-family: handwriting-draft_free-version;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	font-size: 100%;
+	text-align: left;
+	font-family: handwriting-draft_free-version !important;
+
+}
+
+h1{
+	font-family: Georgia;
+	text-align: left;
+	font-size:100%;
+}
+
+.corp_logo{
+	font-size:.6em;
+    text-align: center;
+}
+
+.corp_name{
+	color: rgba(128, 128, 128, 0.9);
+	font-size: 70%;
+	font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+div{
+	font-family: handwriting-draft_free-version;
+
+}
+div .corp_name:hover{
+	color: green;
+}
+
+.author_name{
+	white-space: nowrap
+}
+
+.M3_Corp_Logo{
+	width: 100%;
+	min-width: 30px;
+	max-width: 60px;
+}
+
+.link{
+	font-family: handwriting-draft_free-version !important;
+}
+
+#corp_logo{
+	font-size:.6em;
+}
+
+#welcome{
+	top:-1.5%;
+	position: relative;
+	text-align:center;
+	font-size:40px;
+}
+
+#name{
+	position: relative;
+	top:.157in;
+	float :left;
+}
+
+#corp_name{
+	font-family: handwriting-draft_free-version;
+	color: rgba(128, 128, 128, 0.9);
+	font-size: 12px;
+	font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2{
+	font-family: Georgia;
+	text-align: center;
+}
+.left-image-submit{
+    
+    float: left;
+    width: 700px;
+    border: 2px solid black;
+}
