@@ -1,0 +1,37 @@
+@font-face{
+	font-family: Arizonia-Regular;
+	src: url("Arizonia-Regular.ttf");
+	/*url("https://www.fontsquirrel.com/fonts/arizonia");  IE9 */
+}
+.corp_logo{
+	font-size:.6em;
+    text-align: center;
+}
+
+.corp_name{
+	color: rgba(128, 128, 128, 0.9);
+	font-size: 70%;
+	font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+p{
+	font-family: Arizonia-Regular;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+h1{
+	font-family: Georgia;
+	text-align: left;
+	font-size:100%;
+}
+h3{
+	font-family: Arizonia-Regular;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+body{
+	background-color: rgba(128, 128, 129, .1);
+}
